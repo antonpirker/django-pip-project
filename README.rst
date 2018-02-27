@@ -24,12 +24,12 @@ You need to run `pipinator` inside (or above) the local directory you cloned the
 
 
 
-Uploading to PyPi:
+Uploading to PyPI:
 ------------------
 
 Check description format:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-Check if the ``description`` and ``long_description`` can be rendered by PyPi::
+Check if the ``description`` and ``long_description`` can be rendered by PyPI::
 
     $ pip install readme_renderer
     $ python setup.py check -r -s
@@ -45,13 +45,13 @@ This creates a `dist/` directory containing a archive with your project::
 **Note**: There are also other ways to package your project. See the Python documentation for a complete guide on how to package your project: https://packaging.python.org/tutorials/distributing-packages/#packaging-your-project
 
 
-Create an account on PyPi:
+Create an account on PyPI:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 See: https://packaging.python.org/tutorials/distributing-packages/#create-an-account
 
 
-Upload your project to PyPi:
+Upload your project to PyPI:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You have to use twine to upload your package (you will need to enter your username and password)::

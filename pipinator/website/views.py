@@ -10,7 +10,7 @@ from easy_thumbnails.files import get_thumbnailer
 def index(request):
     template = loader.get_template('index.html')
     thumb_url = get_thumbnailer(settings.BASE_DIR +
-                                '/website/static/mountains-big.jpg')['thumb'].url
+                                '/pipinator/website/static/mountains-big.jpg')['thumb'].url
 
     context = {
         'thumb_filename': os.path.basename(thumb_url)

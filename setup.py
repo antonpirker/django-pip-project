@@ -5,12 +5,12 @@ from setuptools import setup
 
 base_dir = os.path.dirname(__file__)
 
-with open(os.path.join(base_dir, '..', 'README.md')) as f:
+with open(os.path.join(base_dir, 'README.rst')) as f:
     long_description = f.read()
 
 
 setup(
-    version='0.1.1',
+    version='0.1.3',
     name='pipinator',
     description='Example Project to show how to package a Django project for pip',
     long_description=long_description,

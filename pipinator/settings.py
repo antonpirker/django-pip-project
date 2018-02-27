@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'easy_thumbnails',
-    'website',
+    'pipinator.website',
 ]
 
 MIDDLEWARE = [

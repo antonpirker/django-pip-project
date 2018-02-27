@@ -10,7 +10,7 @@ with open(os.path.join(base_dir, '..', 'README.md')) as f:
 
 
 setup(
-    version='0.1.0',
+    version='0.1.1',
     name='pipinator',
     description='Example Project to show how to package a Django project for pip',
     long_description=long_description,

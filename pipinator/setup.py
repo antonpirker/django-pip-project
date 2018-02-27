@@ -16,7 +16,7 @@ setup(
     long_description=long_description,
     author='Anton Pirker',
     author_email='anton@ignaz.at',
-    url='https://github.com/antonpirker/django-pip',
+    url='https://github.com/antonpirker/django-pip-project',
     keywords=['django'],
     license='MIT',
     entry_points={

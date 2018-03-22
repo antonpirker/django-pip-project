@@ -5,7 +5,7 @@ import sys
 
 def main(args=None):
     """The main routine."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pipinator.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

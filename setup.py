@@ -20,7 +20,7 @@ setup(
         ],
     },
     install_requires=[
-        'Django==2.0.2',
+        'Django==2.2.10',
         'easy-thumbnails==2.5',
     ],
     classifiers=[
